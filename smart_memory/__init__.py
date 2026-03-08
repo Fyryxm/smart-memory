@@ -2,14 +2,10 @@
 Smart Memory - Intelligent memory extraction system
 """
 
-from .extractor import SmartMemory, ExtractedMemory, RuleExtractor, LocalExtractor, ConflictDetector, MemoryStorage
+from .extractor import RuleExtractor, ExtractedMemory
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __all__ = [
-    "SmartMemory",
-    "ExtractedMemory",
     "RuleExtractor",
-    "LocalExtractor",
-    "ConflictDetector",
-    "MemoryStorage",
+    "ExtractedMemory",
 ]

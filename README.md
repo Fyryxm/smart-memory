@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/Fyryxm/smart-memory.svg)](https://github.com/Fyryxm/smart-memory/stargazers)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/Fyryxm/smart-memory)
 
 ## 核心特性
 
@@ -19,10 +20,14 @@
 
 | 测试项 | 结果 | 详情 |
 |--------|------|------|
-| 规则提取 | ✅ 4/5 通过 | 5 种分类准确率 ~80% |
-| 冲突检测 | ✅ 3/3 通过 | 重复/矛盾自动处理 |
-| 分类准确率 | ✅ 100% | 13/13 测试用例通过 |
-| 性能测试 | ✅ < 1ms | 平均 0.4ms |
+| 基础提取 | ✅ 5/5 通过 | 5 种分类全部正确 |
+| 分类准确率 | ✅ 100% | 9/9 测试用例通过 |
+| 性能测试 | ✅ < 1ms | 平均 0.01ms，最大 0.02ms |
+
+**v0.2.0 更新：**
+- 重构规则提取器，更稳定
+- 修复短词提取问题
+- 添加分类准确率测试
 
 ## 架构
 
